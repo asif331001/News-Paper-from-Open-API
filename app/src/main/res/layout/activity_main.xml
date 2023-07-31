@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/game_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#7B1FA2"
+    android:text="Guessing Game"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColorHint="#BCBCBC"
+        android:textColor="@color/black"
+        android:hint="Enter your guess here, between 0-5"
+        android:id="@+id/editTextId"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Check"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/checkButtonId"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/resultTextId"
+        />
+
+</LinearLayout>
